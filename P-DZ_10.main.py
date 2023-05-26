@@ -21,8 +21,9 @@ print(coins)
 avers = coins.count(0)
 revers = coins.count(1)
 print('avers',{avers}, 'revers',{revers})
+ 
 
 if avers < revers:
-        print('перевернуть ',avers)
+        print('перевернуть avers' ,  {avers} )
 else:
-    print('перевернуть', revers)
+    print('перевернуть revers', {revers})
